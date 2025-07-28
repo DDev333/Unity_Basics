@@ -1,6 +1,6 @@
 using System;
 using System.Linq;
-class HelloWorld{
+class Hello{
     public static void Main(string[] args){
         // Console.WriteLine("Comments");
         /* 
@@ -28,6 +28,6 @@ class HelloWorld{
 
         int x = (int)22.5f;
         float y = 22.5f;
-        int z = int(y);
+        int z = (int)y;
     }
 }
